@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>The Undiscovered - Coming Soon !!!</title>
+		<link rel = "icon" href = "https://scontent.fcok2-1.fna.fbcdn.net/v/t1.0-9/p960x960/90941247_642083373029455_1370536399299674112_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=LHXcXcye22IAX8fNTSa&_nc_ht=scontent.fcok2-1.fna&tp=6&oh=d056d7e099791e880999a0aa6458586d&oe=5F8123B2"
+        type = "image/x-icon">
+		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0;
+				padding:0;
+				background: #262626;
+			}
+			
+			body{
+				background:url('https://scontent.fcok2-1.fna.fbcdn.net/v/t1.0-9/p720x720/118790663_748319259072532_4734805663828562483_o.jpg?_nc_cat=102&_nc_sid=2d5d41&_nc_ohc=Zi8oemobzL0AX-jNWMH&_nc_ht=scontent.fcok2-1.fna&tp=6&oh=699217db11ffded1f316999e0660a134&oe=5F7F3706');
+				min-height: 100vh;
+				background-size: cover;	
+				background-position: center center;
+				text-align:center;
+				font-family: 'Permanent Marker', cursive;
+				font-size:60px;
+				color:#f77f00;
+			}
+			img {
+				max-width: 100%;
+				max-height: 100%;
+				border-radius:50%;
+			}
+
+			.ring {
+				position:absolute;
+				top:50%;
+				left:50%;
+				border-radius:50%;
+				transform:translate(-50%,-50%);
+				width:220px;
+				height:220px;
+				background:transparent;
+				border: 3px solid #3c3c3c;
+				box-shadow: 0 0 20px rgba(0,0,0,.5);
+			}
+
+			.ring:before{
+				content:'';
+				position:absolute;
+				top:-2px;
+				left:-2px;
+				width:100%;
+				height:100%;
+				border-radius:50%;
+				border:3px solid transparent;
+				border-top: 3px solid #ffffff;
+				border-right:3px solid #ffffff;
+				animation: animateCircle 2s linear infinite;
+			}
+
+			span{
+				display:block;
+				position:absolute;
+				top:calc(50% - 2px);
+				left:50%;
+				width:50%;
+				height:4px;
+				background:transparent;
+				transform-origin:left;
+				animation:animate 2s linear infinite;
+				
+			}
+
+			span:before{
+				content:'';
+				position:absolute;
+				width:16px;
+				height:16px;
+				border-radius:50%;
+				background:#ffffff;
+				top:-6px;
+				right:-8px;
+				box-shadow:0 0 20px #ffffff;
+			}
+
+
+			@keyframes animateCircle{
+				0%{
+					transform:rotate(0deg);
+				}
+				100%{
+					transform:rotate(360deg);
+				}
+			}
+
+			@keyframes animate{
+				0%{
+					transform:rotate(45deg);
+				}
+				100%{
+					transform:rotate(405deg);
+				}
+}
+
+</style
+	</head>
+	<body>
+	Coming Soon
+		<div class='ring'>
+		<img src="https://scontent.fcok2-1.fna.fbcdn.net/v/t1.0-9/p960x960/90941247_642083373029455_1370536399299674112_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=LHXcXcye22IAX8fNTSa&_nc_ht=scontent.fcok2-1.fna&tp=6&oh=d056d7e099791e880999a0aa6458586d&oe=5F8123B2"></img>
+		<span></span>
+	</body>
+</html>
